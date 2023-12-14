@@ -1,96 +1,79 @@
 @import "resets.css";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
 
 }
-
 body {
-    font-family: Arial;
-    color: white;
+    background-color: black;
 }
 
-#myNameLogo {
-    font-size: 30px;
-    padding-left: 50px;
-    font-family: "Poppins";
-    background: linear-gradient(to right, rgba(255, 52, 90, 0.69), rgb(237, 225, 13));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
 
-}
-h1 {
-    font-family: Poppins;
-    line-height: 1.2;
-}
-#heroButton1 {
-    background-color: #48ac6c;
-    color: white;
-    font-family: Poppins;
-    border-color: transparent;
-    border-radius: 50px;
-    width: 250px;
-    font-weight: bold;
-    height: 60px;
-}
-#heroButton1:hover{
-    background-color: #31764d;
-    transition: 0.6s;
-}
-#heroButton2 {
-    background-color: transparent;
-    color: white;
-    border-style: none;
-    font-family: Poppins;
-    font-weight: bold;
-    padding-left: 25px;
-}
-#heroButton2:hover {
-    color: #f6e53e;
-    transition: 0.6s;
-
-}
-#logoSection {
-    background-color: #dedcdc;
-    height: 150px;
-}
-#githubCat {
+.nav-img {
     width: 40px;
 }
-#githubLogo {
-    width: 80px;
+
+#hero-about {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 15%;
+    color: white;
 }
-#experienceSection {
-    background-color: white;
+
+#myName {
+    color: #ac63f1;
 }
-#experienceHeader {
-    padding-left: 100px;
-    padding-top: 100px;
-    font-family: Poppins;
-    font-size: 50px;
-    width: 70%;
+
+#hero-btn {
+    background-image: linear-gradient(45deg, #3209D6, #741AE8, #B72BF9);
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: white;
+    transition: ease 0.6s;
+    opacity: 0.6;
 }
-.experienceBullets ul {
-    color: black;
-    margin-left: 200px;
-    list-style-type: square;
-    line-height: 1.5;
+
+#hero-btn:hover {
+    opacity: 1;
+    width: 125px;
+    content: "Let's work!"
 }
-.experienceBullets li {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+h3 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
 }
-#recentWorkSection {
-    background-color: white;
-}
+
 hr {
-    color: #d3d2d2;
-    width: 80%;
-    margin-left: 125px;
+    color: white;
 }
-.hero-bio {
-    padding-left: 100px;
+
+.card {
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+    transition: 0.6s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-btn {
+    background-color: transparent;
+    color: #B773FB;
+    padding: 0;
 }
