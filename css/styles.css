@@ -1,11 +1,13 @@
 @import "resets.css";
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 :root {
 --accent: #090909;
 }
 body {
     background-color: #ffffff;
-    font-family: Helvetica;
+    font-family: Raleway;
 }
 
 .navbar-list {
@@ -39,6 +41,7 @@ body {
 #who {
     font-size: 70px;
     font-weight: bold;
+    line-height: 80px;
 }
 
 #hero-about {
@@ -46,6 +49,13 @@ body {
     margin-top: 100px;
     margin-left: 15%;
     color: #090909;
+}
+#work-arrow {
+    z-index: 1;
+    position: absolute;
+    right: 600px;
+    top: 350px;
+
 }
 
 #hero-btn {
@@ -55,7 +65,7 @@ body {
     height: 60px;
     border-radius: 30px;
     font-size: 12px;
-    margin-top: 25px;
+    margin-top: 80px;
     margin-bottom: 50px;
     margin-left: 40%;
     color: #fffefe;
@@ -66,7 +76,8 @@ body {
 #hero-btn:hover {
     width: 155px;
     content: "Let's work!";
-    opacity: 0.6;
+    background-color: #6cecc1;
+    color: black;
 }
 
 h3 {
