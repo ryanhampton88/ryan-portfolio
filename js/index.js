@@ -5,7 +5,7 @@ hero_btn.addEventListener("mouseover", function() {
     this.textContent = "Let's work!";
 })
 hero_btn.addEventListener("mouseout", function() {
-    this.textContent = "Hire Me";
+    this.textContent = "Work with me";
 })
 
 // card_btn.addEventListener("click", function() {

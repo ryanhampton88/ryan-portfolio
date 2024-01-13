@@ -1,10 +1,10 @@
 @import "resets.css";
 
 :root {
-
+--accent: #246ec7;
 }
 body {
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .navbar-list {
@@ -13,57 +13,61 @@ body {
     gap: 40px;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 10px;
+}
+
+.navbar-section {
+    background-color: #484848;
 }
 
 .nav-img {
-    width: 40px;
+    width: 25px;
 }
 
 #hero-about {
     width: 50%;
     margin-top: 10%;
     margin-left: 15%;
-    color: white;
+    color: #090909;
 }
 
 #myName {
-    color: #ac63f1;
+    color: var(--accent);
 }
 
 #hero-btn {
-    background-image: linear-gradient(45deg, #3209D6, #741AE8, #B72BF9);
+    background-color: var(--accent);
     border-style: none;
     width: 120px;
     height: 40px;
-    border-radius: 30px;
+    border-radius: 15px;
     font-size: 15px;
     margin-top: 25px;
     margin-bottom: 50px;
-    color: white;
+    color: #fffefe;
     transition: ease 0.6s;
-    opacity: 0.6;
+
 }
 
 #hero-btn:hover {
-    opacity: 1;
     width: 125px;
-    content: "Let's work!"
+    content: "Let's work!";
+    opacity: 0.6;
 }
 
 h3 {
-    color: white;
+    color: #090909;
     margin-left: 100px;
     margin-top: 50px;
 }
 
 hr {
-    color: white;
+    color: #090909;
 }
 
 .card {
     background-color: transparent;
-    color: white;
+    color: #090909;
     margin-top: 50px;
     transition: 0.6s;
 }
@@ -76,4 +80,9 @@ hr {
     background-color: transparent;
     color: #B773FB;
     padding: 0;
+}
+
+#projects-header {
+    font-family: Damascus;
+    font-weight: bold;
 }
