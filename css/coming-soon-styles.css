@@ -27,7 +27,7 @@ body {
     flex: 1 0 0;
     /*height: 100vh;*/
     aspect-ratio: 610/800;
-    background-image: url("assets/main-model.jpg");
+    background-image: url("main-model.jpg");
     background-size: cover;
     background-position: center;
 }
